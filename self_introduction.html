@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Who are you?</title>
+</head>
+<body>
+<form>
+<p>
+<label for="name">名前：</label>
+<input type="text" name="name" id="name">
+</p>
+<p>
+性別：<label><input type="radio" name="sex" value="male"/>
+  男</label>
+  <label><input type="radio" name="sex" value="female"/>
+  女</label>
+</p>
+<p>
+生年月日：<label><input type="date" name="birth"/></label>
+</p>
+<p>
+経験人数：<label><input type="radio" name="number" value="３人以上"/>
+  ３人以上</label>
+  <label><input type="radio" name="number" value="２人"/>
+  ２人</label>
+  <label><input type="radio" name="number" value="１人"/>
+  １人</label>
+  <label><input type="radio" name="number" value="童貞"/>
+  童貞</label>
+</p>
+<p>
+ひとことアピール：<br>
+<textarea name="apeal" rows="1" cols="50"></textarea>
+</p>
+<p>
+<input id="btn" type="button" value="送信"/>
+</p>
+</form>
+<div id="result"></div>
+<script src="script/self_introduction.js"></script>
+</body>
+</html>
